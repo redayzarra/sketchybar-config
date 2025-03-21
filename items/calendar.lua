@@ -10,17 +10,17 @@ local cal = sbar.add("item", {
     padding_left = 8,
     font = {
       style = settings.font.style_map["Black"],
-      size = 14.0,
+      size = 11.0,
     },
   },
   label = {
     color = colors.white,
     padding_right = 8,
-    width = 100,
+    width = 80,
     align = "right",
     font = { 
       family = settings.font.numbers, 
-      size = 18.0 
+      size = 14.0 
     },
   },
   position = "right",
